@@ -1,0 +1,46 @@
+*{margin:0}
+
+body {
+    height: 100vh;
+    background:#F3AC3C;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.big {
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:repeat(3,1fr);
+    width:10rem;
+    height:10rem;
+    transform:rotate(45deg);
+}
+
+.cor {
+    box-sizing:border-box;
+    border-top:1.875rem solid #998235;
+    border-left:1.875rem solid #998235;
+    width:4.0625rem;
+    height:4.0625rem;
+}
+
+.c-r {transform:rotate(90deg)}
+
+.c-l {transform:rotate(-90deg)}
+
+.c-t {transform:rotate(180deg)}
+
+.cen {
+    width:1.875rem;
+    height:1.875rem;
+    background:#1A4341;
+}
+
+.none {visibility: hidden}
+
+.end {
+    justify-self:end;
+    align-self:end;
+    background:#998235;
+}
